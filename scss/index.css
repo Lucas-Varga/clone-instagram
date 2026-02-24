@@ -26,7 +26,7 @@ body {
 
 #banner-container img {
   width: 100%;
-  margin-right: 15px;
+  margin-left: 555px;
   margin-top: 25px;
   max-width: 380px;
 }
@@ -195,4 +195,63 @@ footer #footer-links {
 
 #copyright {
   margin-top: 10px;
+}
+
+/* -- laptop 1024px -- */
+@media (max-width: 1024px) {
+  #banner-container img {
+    margin-left: 120px;
+  }
+}
+/* -- laptop 1440px -- */
+@media (max-width: 1440px) {
+  #banner-container img {
+    margin-left: 330px;
+  }
+}
+/* -- Mobile -- */
+@media (max-width: 450px) {
+  body {
+    background-color: #fff;
+  }
+  #banner-container {
+    display: none;
+  }
+  #main-container,
+  #form-box {
+    margin-top: 0;
+  }
+  #form-container,
+  #form-box,
+  #register-container,
+  #get-app-container {
+    width: 100%;
+    border: none;
+  }
+  footer {
+    width: 90%;
+  }
+  #footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #footer-links {
+    margin-bottom: 10px;
+  }
+  .separator span {
+    margin-top: -60px;
+  }
+}
+/* -- Tablet 768px -- */
+@media (max-width: 768px) {
+  #banner-container img {
+    margin-left: 100px;
+  }
+  #form-container,
+  #form-box,
+  #register-container,
+  #get-app-container {
+    width: 80%;
+    margin-right: -250px;
+  }
 }/*# sourceMappingURL=index.css.map */
